@@ -249,11 +249,11 @@ class Modelbuilder:
             featurewise_center=True,
             featurewise_std_normalization=True,                               
             rotation_range=40,
-            #width_shift_range=0.2,         # schlechtere val_acc wenn an
-            #height_shift_range=0.2,        # schlechtere val_acc wenn an
-            #rescale=1./255,                # schlechtere val_acc wenn an
-            #shear_range=0.2,                # schlechtere val_acc wenn an
-            #zoom_range=0.2,                 # schlechtere val_acc wenn an
+            #width_shift_range=0.2,       
+            #height_shift_range=0.2,    
+            #rescale=1./255,              
+            #shear_range=0.2,           
+            #zoom_range=0.2,             
             horizontal_flip=True,
             fill_mode='nearest'
         )
